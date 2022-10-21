@@ -164,6 +164,7 @@ section {
 }
 
 img.p-pic {
+  width: 200px;
   border-radius: 100%;
   filter: grayscale(50%);
 }
