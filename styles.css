@@ -1,0 +1,185 @@
+div {
+  /*border: 1px solid white; */
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  font-size: 32px;
+  background-color: black;
+  color: white;
+}
+
+
+#navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0;
+  background-color: black;
+  z-index: 5;
+  border: 1px solid white;
+}
+
+.home {
+  display: flex;
+  padding: 10px;
+  flex: 1;
+}
+.navigation {
+  display: flex;
+  padding: 10px;
+  padding-right: 20px;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+}
+
+a.nav {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a.nav:hover {
+  background-color: white;
+  color: black;
+}
+
+div.nav {
+  display: flex;
+  padding: 10px;
+  flex: 1;
+  padding-left: 30px;
+  float: right;
+}
+
+#welcome-section {
+  margin-top: 100px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  padding-top: 200px;
+  transition: transform .7s ease-in-out;
+  border: 1px solid white;
+  border-radius: 2%;
+}
+h1.welcome {
+  font-size: 64px;
+}
+
+#welcome-section:hover {
+  transform: rotateX(-360deg);
+}
+
+div.container {
+  margin: 0 auto;
+  display: flex;
+  height: auto;
+}
+
+div.left-container {
+  flex: 1;
+  padding: 10px;
+}
+
+div.in-container {
+  width: 80%;
+  margin: 0 auto;
+  flex: 2;
+  padding: 10px;
+  background-color: #111111;
+}
+
+div.right-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.project-tile {
+  width: 95%;
+  float: left;
+  margin: 10px;
+  justify-content: center;
+  padding-bottom: 10px;
+  transition: 0.5s;
+  filter: grayscale(90%);
+  background-color: #222222;
+  padding-top: 20px;
+}
+
+.project-tile:hover {
+  filter: grayscale(0%);
+}
+
+#projects {
+  height: auto;
+  justify-content: center;
+}
+
+#projects-section {
+  height: auto;
+}
+
+.project-img {
+  width: 80%;
+}
+
+a.tile {
+  color: white;
+}
+
+section {
+  height: auto;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  padding-top: 40px;
+  background-color: #333333;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.fab {
+  font-size: 50px;
+  padding: 15px;
+  color: gray;
+}
+
+.fab:hover {
+  color: white;
+}
+
+img.p-pic {
+  border-radius: 100%;
+  filter: grayscale(50%);
+}
+img.p-pic:hover {
+  filter: grayscale(0%);
+}
+
+p.profile-text {
+  margin-top: -10px;
+}
+
+@media only screen and (max-width: 800px) {
+  div.right-container {
+    flex: 0;
+  }
+  div.left-container {
+    flex: 0;
+  }
+}
