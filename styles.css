@@ -69,7 +69,7 @@ div.nav {
   text-align: center;
   align-items: center;
   padding-top: 200px;
-  transition: transform .7s ease-in-out;
+  transition: transform 2s ease-in-out;
   border: 1px solid white;
   border-radius: 2%;
 }
@@ -79,6 +79,9 @@ h1.welcome {
 
 #welcome-section:hover {
   transform: rotateX(-360deg);
+  /*color: black;
+  background-color: white;*/
+  transition: 2s;
 }
 
 div.container {
@@ -91,6 +94,16 @@ div.left-container {
   flex: 1;
   padding: 10px;
 }
+/*
+div.left-container:hover{
+	background-color: white;
+	transition: 2s;
+}
+div.right-container:hover{
+	background-color: white;
+	transition: 2s;
+}
+*/
 
 div.in-container {
   width: 80%;
@@ -145,6 +158,20 @@ a.tile {
 section {
   height: auto;
 }
+
+div.logo-link {
+	justify-content: center;
+}
+
+img.logo-poster {
+	width: 80%;
+}
+
+img.logo-poster:hover {
+	background-color: white;
+	transition: 0.5s;
+}
+
 
 .footer {
   width: 100%;
