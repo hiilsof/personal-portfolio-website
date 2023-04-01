@@ -2,6 +2,11 @@ div {
   /*border: 1px solid white;*/
 }
 
+
+html{
+	scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
   color: white;
@@ -12,7 +17,6 @@ header {
   background-color: black;
   color: white;
 }
-
 
 #navbar {
   display: flex;
@@ -169,7 +173,7 @@ img.logo-poster {
 
 img.logo-poster:hover {
 	background-color: white;
-	transition: 0.5s;
+	transition: 1s;
 }
 
 
@@ -193,6 +197,13 @@ img.logo-poster:hover {
   transition: 0.5s;
 }
 
+i.fa-spotify:hover {
+	color: #1ed760;
+}
+
+i.fa-bandcamp:hover {
+	color: #629aa9;
+}
 
 img.p-pic {
   width: auto;
@@ -240,6 +251,57 @@ div.parag {
 	background-color: #111111;
 	height: 200px;
 	padding: 1%;
+	justify-content: center;
+}
+
+.mini-feat:hover{
+	background-color: #222222;
+	transition: 1s;
+	transform: scale(1.2);
+	z-index: 5;
+}
+
+.mini-container{
+	display: flex;
+	justify-content: center;
+	height: 80%;
+}
+
+.mini-container:hover{
+	transition: 1s;
+}
+
+.mini-items{
+	margin-left: 2%;
+	margin-right: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: grayscale(90%);
+}
+
+.mini-items:hover {
+	transition: 1s;
+	transform: scale(1.2);
+	filter: none;
+}
+
+.imini {
+	font-size: 100px;
+}
+
+
+
+img.mini-album{
+	height: 80%;
+	filter: grayscale(90%);
+}
+
+img.mini-album:hover{
+	height: 80%;
+	filter: none;
+	transition: 1s;
+	transform: scale(1.2);
 }
 
 div.descCon{
