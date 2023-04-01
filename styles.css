@@ -314,6 +314,34 @@ div.description{
 	text-align:center;
 }
 
+.mini-profile {
+	border-radius: 50%;
+}
+
+a:link { 
+	text-decoration: none;
+	color: white;
+}
+
+
+a:visited { 
+	text-decoration: none;
+	color: white;
+}
+
+
+a:hover { 
+	text-decoration: none;
+	color: white;
+}
+
+
+a:active {
+	text-decoration: none;
+	color: white;
+}
+
+
 @media only screen and (max-width: 800px) {
   div.right-container {
     flex: 0;
