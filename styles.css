@@ -133,7 +133,7 @@ div.right-container {
   justify-content: center;
   padding-bottom: 10px;
   transition: 0.5s;
-  filter: grayscale(90%);
+  filter: grayscale(75%);
   background-color: #222222;
   padding-top: 20px;
 }
@@ -239,6 +239,7 @@ div.parag {
 
 .mfContainer {
 	width: 90%;
+	height: auto;
 	text-align: center;
 	margin:0 auto;
 	display: flex;
@@ -277,7 +278,7 @@ div.parag {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	filter: grayscale(90%);
+	/*filter: grayscale(90%);*/
 }
 
 .mini-items:hover {
@@ -287,18 +288,21 @@ div.parag {
 }
 
 .imini {
-	font-size: 100px;
+	font-size: 500%;
 }
 
 
 
 img.mini-album{
-	height: 80%;
-	filter: grayscale(90%);
+	height: 50%;
+	/*filter: grayscale(90%);*/
+}
+
+img.mini-single{
+	width: 76%;
 }
 
 img.mini-album:hover{
-	height: 80%;
 	filter: none;
 	transition: 1s;
 	transform: scale(1.2);
@@ -315,8 +319,19 @@ div.description{
 }
 
 .mini-profile {
+	height: 50%;
 	border-radius: 50%;
 }
+
+div.single-div{
+	  height: 80%;
+}
+
+img.mini-single{
+	height: 100%;
+	width: auto;
+}
+
 
 a:link { 
 	text-decoration: none;
@@ -351,6 +366,26 @@ a:active {
   }
   div.nav{
 	  margin-left: 1%;
+  }
+  div.mfContainer{
+	  display: block;
+	  justify-content: center;
+  }
+  div.mini-feat{
+	  width: auto;
+  }
+  img.mini-single{
+	  height: 100%;
+	  width: auto;
+  }
+  div.single-div{
+	  height: 80%;
+  }
+  .project-tile {
+	  filter: none;
+  }
+  .mini-profile {
+	height: 50%;
   }
 }
 
