@@ -22,6 +22,11 @@ header {
   color: white;
 }
 
+#navbar:hover{
+	opacity: 0.85;
+	transition: 1s;
+}
+
 #navbar {
   display: flex;
   position: fixed;
