@@ -10,6 +10,10 @@ html{
 body {
   background-color: black;
   color: white;
+  background-image: url(web-background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 header {
@@ -26,7 +30,7 @@ header {
   top: 0;
   background-color: black;
   z-index: 5;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   margin-left: -10px;
 }
 
@@ -128,6 +132,7 @@ div.right-container {
 
 .project-tile {
   width: 95%;
+  height: 100%;
   float: left;
   margin: 10px;
   justify-content: center;
@@ -184,6 +189,8 @@ img.logo-poster:hover {
   padding-top: 40px;
   background-color: #333333;
   margin-right: 20px;
+  margin-left: -10px;
+  margin-bottom: -10px;
 }
 
 .fab {
@@ -386,6 +393,13 @@ a:active {
   }
   .mini-profile {
 	height: 50%;
+  }
+  header{
+	  font-size: auto;
+  }
+  body{
+	  background-size: auto;
+	  
   }
 }
 
