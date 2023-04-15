@@ -10,7 +10,7 @@ html{
 body {
   background-color: black;
   color: white;
-  background-image: url(web-background.png);
+  background-image: url(pix/web-background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
