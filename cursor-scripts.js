@@ -1,13 +1,33 @@
 const coords = { x: 0, y: 0 };
 const squares = document.querySelectorAll(".square");
 
-const colors = [ "#6431ff", "#970aed", "#ba00da", "#d300c6", "#e600b1", "#f4009c", "#fd0088", "#ff0075", "#ff0062", "#ff0051", "#ff0041", "#ff3131"
+const colors = [ 
+"#6431ff", 
+"#970aed", 
+"#ba00da", 
+"#d300c6", 
+"#e600b1", 
+"#f4009c", 
+"#fd0088", 
+"#ff0075", 
+"#ff0062", 
+"#ff0051", 
+"#ff0041", 
+"#ff3131",
+"#ff0041",
+"#ff0051",
+"#ff0062",
+"#ff0075", 
+"#fd0088", 
+"#f4009c", 
+"#e600b1", 
+"#d300c6"
 ];
 
 squares.forEach(function (square, index) {
 	square.x = 0;
 	square.y = 0;
-  square.style.backgroundColor = colors[index % colors.length];
+    square.style.backgroundColor = colors[index % colors.length];
 });
 
 
