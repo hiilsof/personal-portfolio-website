@@ -1,5 +1,5 @@
 HTML code - index.html
-CSS code - styles.css
+CSS code - styles.css & cursor-styles.css
 JavaScript code - cursor-scripts.js 
 
 pictures used in 'pix' folder 
