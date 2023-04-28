@@ -54,6 +54,10 @@ header {
   height: auto;
 }
 
+.hov:hover {
+	font-weight: bold;
+}
+
 a.nav {
   text-align: center;
   vertical-align: middle;
