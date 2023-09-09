@@ -373,6 +373,17 @@ a:active {
 }
 
 
+.update-feature {
+	text-align: center;
+	background-color: #6431FF;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: .5%;
+	
+}
+
+
+
 @media only screen and (max-width: 800px) {
   div.right-container {
     flex: 0;
