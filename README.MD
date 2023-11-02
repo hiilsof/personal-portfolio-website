@@ -1,5 +1,8 @@
 # Personal Portfolio Website
 
+
+Used to display projects
+
 HTML code - index.html
 <BR>
 CSS code - styles.css & styles-cursor.css
