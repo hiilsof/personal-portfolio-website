@@ -12,3 +12,6 @@ JavaScript code - cursor-scripts.js
 pictures used in 'pix' folder 
 
 URL: https://hiilsof.github.io/personal-portfolio-website/
+
+To implement:
+- 2 options pages / single page?
